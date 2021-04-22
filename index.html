@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тестовое задание</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-body">
+
+  <div class="card">
+    <button class="card__close" type="button"></button>
+    <img class="card__image" src="img/plan.png" width="178" height="178" alt="План квартиры">
+    <div class="card__info">
+      <h3 class="card__title">2-к квартира</h3>
+      <dl class="card__parameters-list">
+        <div class="card__parameters-item">
+          <dt class="card__parameter">Этаж</dt>
+          <dd class="card__value">3 из 19</dd>
+        </div>
+        <div class="card__parameters-item">
+          <dt class="card__parameter">Высота потолков</dt>
+          <dd class="card__value">3,2 м</dd>
+        </div>
+        <div class="card__parameters-item">
+          <dt class="card__parameter">Отделка</dt>
+          <dd class="card__value">Предчистовая</dd>
+        </div class="card__parameters-item">
+        <div class="card__parameters-item">
+          <dt class="card__parameter">Общая площадь</dt>
+          <dd class="card__value">32,24 м²</dd>
+        </div>
+        <div class="card__parameters-item">
+          <dt class="card__parameter">Жилая площадь</dt>
+          <dd class="card__value">22,24 м²</dd>
+        </div class="card__parameters-item">
+        <div class="card__parameters-item">
+          <dt class="card__parameter">Площадь кухни</dt>
+          <dd class="card__value">14,24 м²</dd>
+        </div>
+      </dl>
+      <ul class="card__conditions conditions">
+        <li class="conditions__item conditions__item--ok">
+          Вы были на просмотре
+        </li>
+        <li class="conditions__item conditions__item--err">
+          Дом аккредитован другим банком
+        </li>
+      </ul>
+    </div>
+    <div class="card__order order">
+      <p class="order__text">
+        Ваша цена по брони до <span class="order__date">19 сентября</span>
+        <br>
+        <b class="order__price">3 312 666 Р</b>
+      </p>
+      <p class="order__text">
+        Текущая цена у застройщика
+        <br>
+        дороже на <span class="order__benefit">324 825 Р</span>
+      </p>
+
+      <button class="order__button button" type="button"><span class="order__button-text">Выбрать для покупки</span></button>
+    </div>
+  </div>
+
+</body>
+</html>
